@@ -1,0 +1,107 @@
+/**
+ * @file
+ * Fieldsets styling.
+ */
+fieldset {
+  font-size: 1rem;
+  position: relative;
+  max-width: 100%;
+  margin: 1em 0;
+  padding: 2em 0 1em;
+  border: 1px solid #eaeaea;
+}
+fieldset .fieldset-legend {
+  position: absolute;
+  left: 0;
+  top: 0;
+  right: 0;
+  padding: 0.5em;
+  text-transform: uppercase;
+}
+.fieldset-description {
+  margin: 0 0 0.5em;
+  padding: 0.5em 0.1875em;
+}
+.collapsible > .fieldset-wrapper > .fieldset-description {
+  margin: 0 0 0.5em;
+  padding: 0.5em 1.5625em;
+}
+/**
+ * Collapsible Fieldsets
+ */
+.js fieldset.collapsible {
+}
+fieldset .fieldset-wrapper {
+  padding: 0 10px 10px 15px; /* LTR */
+}
+[dir="rtl"] fieldset .fieldset-wrapper {
+  padding: 0 15px 10px 10px;
+}
+.js fieldset.collapsible .fieldset-title {
+  position: relative;
+  z-index: 1;
+  display: block;
+  padding: 0.3em 0.3em 0.3em 1.8em;
+  margin: 0;
+  background: transparent;
+  text-decoration: none;
+}
+.js[dir="rtl"] fieldset.collapsible .fieldset-title {
+  padding: 0.3em 1.8em 0.3em 0.3em;
+}
+.js fieldset.collapsible .fieldset-legend a:before {
+  content: "";
+  position: absolute;
+  left: 0.6em;
+  top: 0.8em;
+  width: 0;
+  height: 0;
+  border: .32em solid transparent;
+  border-top-color: #000000;
+  border-bottom: 0;
+  -webkit-transform: translate(0, 0.125em);
+  transform: translate(0, 0.125em);
+}
+.js[dir="rtl"] fieldset.collapsible .fieldset-legend a:before {
+  right: 0.6em;
+  left: auto;
+  -webkit-transform: translate(0, 0.125em);
+  transform: translate(0, 0.125em);
+}
+.fieldset-legend span.summary {
+  position: absolute;
+  top: .4em;
+  right: 2em;
+  display: none;
+}
+.fieldset-legend span.summary:not(:empty):before {
+  content: '(';
+}
+.fieldset-legend span.summary:not(:empty):after {
+  content: ')';
+}
+@media (min-width: 34em) {
+  .fieldset-legend span.summary {
+    display: block;
+  }
+}
+/* Collapsed state styles */
+.js fieldset.collapsed {
+  padding: 2em 0 1em;
+}
+.js fieldset.collapsed .fieldset-legend a:before {
+  -webkit-transform:
+    translate(0, 0.125em)
+    rotate(-90deg);
+  transform:
+    translate(0, 0.125em)
+    rotate(-90deg);
+}
+.js[dir="rtl"] fieldset.collapsed .fieldset-legend a:before {
+  -webkit-transform:
+    translate(0, 0.125em)
+    rotate(90deg);
+  transform:
+    translate(0, 0.125em)
+    rotate(90deg);
+}

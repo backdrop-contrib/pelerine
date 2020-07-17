@@ -1,0 +1,200 @@
+/* abstract-teal-orange */
+.abstract-teal-orange {
+  background-color: #52b8ae;
+}
+.abstract-teal-orange .block-hero-no-image {
+  background-color: #50847f;
+}
+.abstract-teal-orange a {
+  color: #50847f;
+}
+.abstract-teal-orange .name-and-slogan .site-name,
+.abstract-teal-orange .name-and-slogan .site-name a {
+  background-color: #52b8ae;
+  color: #fff;
+}
+.abstract-teal-orange .name-and-slogan .site-name {
+  border: 1px solid #fff;
+}
+/* abstract-yellow */
+.abstract-yellow {
+  background-color: #f4f4f4;
+}
+/* blue-abstract */
+.blue-abstract {
+  background-color: #44a1b2;
+}
+.blue-abstract .block-hero-no-image {
+  background-color: #507884;
+}
+.blue-abstract .name-and-slogan .site-name,
+.blue-abstract .name-and-slogan .site-name a {
+  background-color: #4dabbb;
+  color: #fff;
+}
+.blue-abstract .name-and-slogan .site-name {
+  border: 1px solid #fff;
+}
+/* color-bars */
+.color-bars {
+  background-color: #f5f5f5;
+}
+.color-bars .block-hero-no-image {
+  background-color: #8d8294;
+}
+.color-bars a {
+  color: #857092;
+}
+/* dark-turquoise */
+.dark-turquoise {
+  background-color: #1b2929;
+}
+.dark-turquoise .block-hero-no-image {
+  background-color: #296362;
+}
+.dark-turquoise .name-and-slogan .site-name,
+.dark-turquoise .name-and-slogan .site-name a {
+  background-color: transparent;
+  color: #fff;
+}
+.dark-turquoise .name-and-slogan .site-slogan {
+  background-color: transparent;
+  color: #fff;
+}
+.dark-turquoise .header-menu a {
+  color: #fff;
+}
+.dark-turquoise a {
+  color: #458282;
+}
+/* green-grey-dots */
+.green-grey-dots {
+  background-color: #f3f3f3;
+}
+.green-grey-dots .block-hero-no-image {
+  background-color: #9c9a9b;
+}
+.green-grey-dots a {
+  color: #9eb90f;
+}
+.green-grey-dots .name-and-slogan .site-name {
+  background-color: #bfdf14;
+  color: #fff;
+  border: 1px solid #fff;
+}
+.green-grey-dots .name-and-slogan .site-name a {
+  color: #fff;
+}
+.green-grey-dots .name-and-slogan .site-slogan {
+  background-color: #9c9a9b;
+  color: #fff;
+}
+.green-grey-dots .header-menu a {
+  color: #000;
+  background-color: #fffa;
+}
+/* green-stripes */
+.green-stripes {
+  background-color: #789e05;
+}
+.green-stripes .block-hero-no-image {
+  background-color: #789e05;
+}
+.green-stripes a {
+  color: #648403;
+}
+.green-stripes .name-and-slogan .site-name {
+  background-color: #789e05;
+  color: #fff;
+  border: 1px solid #a3d314;
+}
+.green-stripes .name-and-slogan .site-name a {
+  color: #fff;
+}
+.green-stripes .name-and-slogan .site-slogan {
+  background-color: #a3d314;
+}
+.green-stripes .header-menu a {
+  color: #fff;
+}
+/* lavender-labyrinth */
+.lavender-labyrinth {
+  background-color: #ae8da7;
+}
+.lavender-labyrinth .block-hero-no-image {
+  background-color: #825e7f;
+}
+.lavender-labyrinth .name-and-slogan .site-name,
+.lavender-labyrinth .name-and-slogan .site-slogan {
+  background-color: #ae8da7;
+  color: #fff;
+}
+.lavender-labyrinth .name-and-slogan .site-name a,
+.lavender-labyrinth .header-menu a {
+  color: #fff;
+}
+.lavender-labyrinth a {
+  color: #61465e;
+}
+/* orange-circles */
+.orange-circles {
+  background-color: #e78311;
+}
+.orange-circles .block-hero-no-image {
+  background-color: #e78311;
+}
+.orange-circles .name-and-slogan .site-name,
+.orange-circles .name-and-slogan .site-slogan {
+  background-color: #cb5c0c;
+  color: #fff;
+}
+.orange-circles .name-and-slogan .site-name {
+  border: 1px solid #e78311;
+}
+.orange-circles .name-and-slogan .site-name a,
+.orange-circles .header-menu a {
+  color: #fff;
+}
+.orange-circles a {
+  color: #cb5c0c;
+}
+/* pink-stripes */
+.pink-stripes {
+  background-color: #530157;
+}
+.pink-stripes .block-hero-no-image {
+  background-color: #a66da9;
+}
+.pink-stripes .name-and-slogan .site-name,
+.pink-stripes .name-and-slogan .site-slogan {
+  background-color: #530157;
+  color: #fff;
+}
+.pink-stripes .name-and-slogan .site-name {
+  border: 1px solid #bb037f;
+}
+.pink-stripes .name-and-slogan .site-name a,
+.pink-stripes .header-menu a {
+  color: #fff;
+}
+.pink-stripes a {
+  color: #530157;
+}
+/* warm-geometric */
+.warm-geometric {
+  background-color: #f4b21e;
+}
+.warm-geometric .block-hero-no-image {
+  background-color: #88775e;
+}
+.warm-geometric .name-and-slogan .site-name,
+.warm-geometric .name-and-slogan .site-slogan {
+  background-color: #9e2b28;
+  color: #fff;
+}
+.warm-geometric .name-and-slogan .site-name a {
+  color: #fff;
+}
+.warm-geometric a {
+  color: #9e2b28;
+}
