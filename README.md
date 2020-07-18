@@ -2,14 +2,18 @@
 
 Dress up your Backdrop website with a fancy cape.
 
-Set a color statement with one of the included background images or create a
+Set a strong color statement with one of the included background images or create a
 custom subtheme.
 
 Easy to configure (just a single setting does it all).
-Easy to extend.
 
-Work in progress.
-Starterkit subtheme coming soon.
+Easy to extend, a starterkit subtheme is included.
+
+To make a custom subtheme, unzip pelerine-starterkit.zip in your themes
+folder, alongside the other themes. Then enable your theme.
+
+Add your custom image in the backgrounds directory of pelerine_sub and customize the
+capes.css file as needed.
 
 ## Installation
 
