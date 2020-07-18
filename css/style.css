@@ -92,9 +92,9 @@ h6 {
 }
 .l-wrapper {
   background-color: #eee;
-  padding-bottom: 3.5em;
 }
 .l-middle,
+.layout--sutro .l-content,
 .layout--boxton .l-content,
 .layout-legacy .l-content {
   background-color: #fff;
