@@ -32,9 +32,12 @@
   border: 1px solid #bbb;
 }
 .tabs ul.primary li.active a {
-  background-color: #f9f9f9;
+  background-color: #fff;
 }
 @media screen and (min-width: 600px) {
+  .tabs ul.primary {
+    margin: 0;
+  }
   .tabs ul.primary li {
     float: left;
   }
