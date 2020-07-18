@@ -29,11 +29,7 @@ function pelerine_form_system_theme_settings_alter(&$form, &$form_state) {
     '#title' => t('Settings'),
     '#collapsible' => FALSE,
   );
-  $image_path = backdrop_get_path('theme', 'pelerine') . '/backgrounds';
-  if ($theme_name != 'pelerine') {
-    // Sub themes override img path.
-    $image_path = backdrop_get_path('theme', $theme_name) . '/backgrounds';
-  }
+  $image_path = backdrop_get_path('theme', $theme_name) . '/backgrounds';
   $images = file_scan_directory($image_path, '/[a-zA-Z0-9_-]+\.(png|jpe?g)/', array(
     'recurse' => FALSE,
     'key' => 'uri',
