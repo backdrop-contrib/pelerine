@@ -13,17 +13,18 @@
   overflow-wrap: break-word;
 }
 @media (min-width: 25em) {
-  .block-hero {
+  .block-hero .block-content {
     font-size: 1.3em;
   }
 }
 @media (min-width: 34em) {
-  .block-hero {
+  .block-hero .block-content {
     font-size: 1.5em;
   }
 }
 @media (min-width: 62em) {
-  .block-hero {
+  .block-hero .block-content {
+    font-size: 1.6em;
   }
 }
 .block-hero-no-image {
