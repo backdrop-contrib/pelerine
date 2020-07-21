@@ -23,3 +23,15 @@ function pelerine_preprocess_page(&$variables) {
     $variables['classes'][] = theme_get_setting('bodyclass');
   }
 }
+
+/**
+ * Implements hook_ckeditor_settings_alter();
+ *
+ * Set CKEditor config.defaultLanguage to current language.
+ * Affects the toolbar tooltips and also the webbrowser language guessing
+ * inside the iframe.
+ */
+function pelerine_ckeditor_settings_alter(&$settings, $format) {
+  global $language;
+  $settings['language'] = $language->langcode;
+}
