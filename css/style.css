@@ -105,6 +105,12 @@ h6 {
 .l-flexible-row {
   background: #fff;
 }
+.layout--sutro .l-content {
+  padding-bottom: 1em;
+}
+.layout--sutro .l-middle {
+  padding-top: 1em;
+}
 .l-header .l-flexible-row,
 .l-footer .l-flexible-row {
   background: inherit;
@@ -341,6 +347,11 @@ h6 {
 }
 .l-header .block-system-main-menu .menu .menu a:hover {
   background-color: pink;
+}
+.l-header .block-system-main-menu .menu a.active,
+.l-header .block-system-main-menu .menu a.active-trail {
+  color: #000;
+  background-color: #f7f7f7;
 }
 .l-footer {
   padding: 2em 0;
