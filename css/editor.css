@@ -1,0 +1,97 @@
+body {
+  font: 1rem/1.6 "Open Sans", sans-serif;
+  background-color: #fff;
+  color: #444;
+}
+a {
+  color: #457782;
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
+p {
+  margin: 0 0 1em;
+}
+pre {
+  max-width: 100%;
+  overflow-y: auto;
+  background: #fafafa;
+  color: #000;
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+code {
+  border: none;
+}
+.breadcrumb {
+}
+blockquote {
+  border-left: 4px solid #ddd;
+  margin: 1em 0;
+  padding: 0 1em;
+}
+ol,
+ul,
+.item-list ol,
+.item-list ul {
+  margin: 1em 0 1em 1em;
+  padding: 0 0 0 1.2em;
+}
+.item-list li {
+  margin: 0;
+}
+.links li {
+  list-style-type: square;
+}
+table {
+  display: block;
+  border-collapse: collapse;
+  max-width: 100%;
+  overflow-x: auto;
+  margin: 1em 0;
+  padding-bottom: 1em;
+}
+tr.even {
+  background-color: initial;
+}
+td, th {
+  padding: 4px 10px;
+  vertical-align: top;
+}
+h1 {
+  font-size: 1.8em;
+  line-height: 130%;
+}
+h2 {
+  font-size: 1.6em;
+  line-height: 130%;
+  font-weight: normal;
+}
+h3 {
+  font-size: 1.4em;
+}
+h4 {
+  font-size: 1.1em;
+}
+h5 {
+  font-size: 1em;
+}
+h6 {
+  font-size: 1em;
+}
+@media screen and (max-width: 600px) {
+  img.align-left,
+  img.align-right {
+    float: none;
+    margin: .5em 0;
+  }
+}
+@media screen and (min-width: 1101px) {
+  h1 {
+    font-size: 2.1em;
+  }
+  h2 {
+    font-size: 1.8em;
+  }
+}

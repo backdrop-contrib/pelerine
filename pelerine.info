@@ -15,5 +15,7 @@ stylesheets[all][] = css/component/vertical-tabs.css
 stylesheets[all][] = css/style.css
 stylesheets[all][] = css/capes.css
 
+ckeditor_stylesheets[] = css/editor.css
+
 settings[bodyclass] = 'green-grey-dots'
 settings[image_url] = 'themes/pelerine/backgrounds/green-grey-dots.png'
