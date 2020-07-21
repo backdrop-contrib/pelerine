@@ -71,6 +71,13 @@
 .vertical-tab-selected .fieldset-wrapper {
   display: block;
 }
+.vertical-tabs-pane table {
+  display: table;
+  overflow: visible;
+}
+.vertical-tabs-pane .fieldset-wrapper {
+  overflow-y: auto;
+}
 @media (min-width: 48em) {
   .vertical-tabs-panes {
     overflow: hidden;
