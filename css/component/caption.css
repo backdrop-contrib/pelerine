@@ -12,18 +12,10 @@
   border: none;
 }
 .caption > figcaption {
-  display: table-caption;
-  caption-side: bottom;
-  max-width: none;
-  margin: 0.5em 0 1em;
+  margin: 0 0 1em;
   padding: 0.3em 0.5em;
-  border: none;
-  border-left: 0.25rem solid #bbbbbb;
-  background: none;
-}
-[dir="rtl"] .caption > figcaption {
-  border-left: none;
-  border-right: 0.25rem solid #bbbbbb;
+  text-align: center;
+  background-color: #f7f7f7;
 }
 img.align-left {
   margin-right: 2em;
