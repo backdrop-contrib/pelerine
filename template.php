@@ -6,7 +6,7 @@
  */
 
 /**
- * Prepares variables for page templates.
+ * Implements template_preprocess_page().
  *
  * @see page.tpl.php
  */
@@ -25,11 +25,13 @@ function pelerine_preprocess_page(&$variables) {
 }
 
 /**
- * Implements hook_ckeditor_settings_alter();
+ * Implements hook_ckeditor_settings_alter().
  *
  * Set CKEditor config.defaultLanguage to current language.
  * Affects the toolbar tooltips and also the webbrowser language guessing
  * inside the iframe.
+ *
+ * @see https://github.com/backdrop/backdrop-issues/issues/4492
  */
 function pelerine_ckeditor_settings_alter(&$settings, $format) {
   global $language;
