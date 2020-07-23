@@ -31,9 +31,9 @@ code {
 .breadcrumb {
 }
 blockquote {
-  border-left: 4px solid #ddd;
+  border-left: 5px solid #ddd;
   margin: 1em 0;
-  padding: 0 1em;
+  padding: 0 1.5em;
 }
 ol,
 ul,
@@ -62,6 +62,11 @@ tr.even {
 td, th {
   padding: 4px 10px;
   vertical-align: top;
+}
+table.sticky-enabled,
+table.sticky-header {
+  display: table;
+  width: 100%;
 }
 h1 {
   font-size: 1.8em;
@@ -214,11 +219,13 @@ img.align-right {
   margin: 4px;
   border: 1px solid #aaa;
   color: #000;
+  -webkit-transform: skew(-10deg);
   transform: skew(-10deg);
 }
 .field-type-taxonomy-term-reference .field-item a {
   color: #000;
   display: block;
+  -webkit-transform: skew(10deg);
   transform: skew(10deg);
 }
 .progress .filled {
@@ -258,6 +265,7 @@ img.align-right {
   width: 10px;
   height: 1px;
   border-bottom: 4px solid #666;
+  -webkit-transform: rotate(45deg);
   transform: rotate(45deg);
   position: absolute;
   bottom: 10px;
@@ -334,6 +342,7 @@ img.align-right {
   background-color: #fff;
   color: #777;
   border-bottom: 1px solid #ccc;
+  min-height: 50px;
 }
 .l-header .block-system-main-menu .menu a {
   font-size: 1.2rem;

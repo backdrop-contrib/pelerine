@@ -319,7 +319,7 @@ a.form-delete,
 input.button-danger,
 button.button-danger {
   border-color: #f00;
-  color: #f00;
+  color: #f00 !important;
 }
 a.form-delete:hover,
 a.form-delete:focus,
