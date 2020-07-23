@@ -5,6 +5,7 @@
 .caption {
   display: table;
   max-width: 100%;
+  margin: 1em 0;
 }
 .caption > * {
   display: block;
@@ -12,16 +13,14 @@
   border: none;
 }
 .caption > figcaption {
-  margin: 0 0 1em;
   padding: 0.3em 0.5em;
   text-align: center;
+  font-size: 0.9em;
   background-color: #f7f7f7;
 }
-img.align-left {
-  margin-right: 2em;
-  margin-bottom: 1em;
+figure.align-left {
+  margin: 0.2em 2em .4em 0;
 }
-img.align-right {
-  margin-left: 2em;
-  margin-bottom: 1em;
+figure.align-right {
+  margin: 0.2em 0 .4em 2em;
 }

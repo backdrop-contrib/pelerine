@@ -16,6 +16,7 @@ stylesheets[all][] = css/style.css
 stylesheets[all][] = css/capes.css
 
 ckeditor_stylesheets[] = css/editor.css
+ckeditor_stylesheets[] = css/component/caption.css
 
 settings[bodyclass] = 'green-grey-dots'
 settings[image_url] = 'themes/pelerine/backgrounds/green-grey-dots.png'

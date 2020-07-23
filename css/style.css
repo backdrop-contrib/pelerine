@@ -196,6 +196,10 @@ h6 {
 .l-footer {
   margin: 0;
 }
+img.align-left,
+img.align-right {
+  margin-top: 5px;
+}
 .field-type-text-long,
 .field-type-text-with-summary {
   overflow: unset;
@@ -317,10 +321,6 @@ h6 {
   display: block;
   text-align: right;
   margin: 0;
-}
-.view-mode-teaser img.align-left,
-.view-mode-teaser img.align-right {
-  margin-top: 7px;
 }
 .node-readmore > a::before {
   content: "»";
