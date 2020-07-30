@@ -1,3 +1,6 @@
+.draggable {
+  border-bottom: 1px solid #ccc;
+}
 .draggable.drag-previous {
   background-color: #faf5c9;
 }
