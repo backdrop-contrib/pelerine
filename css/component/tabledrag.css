@@ -1,0 +1,22 @@
+.draggable.drag-previous {
+  background-color: #faf5c9;
+}
+.draggable td {
+  position: relative;
+}
+.draggable abbr.warning::before {
+  content: " ";
+  display: block;
+  background-color: #fce400;
+  position: absolute;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  width: 6px;
+}
+.draggable a.tabledrag-handle {
+  margin-left: -0.4em;
+}
+a.tabledrag-handle .handle {
+  margin: -0.2em 0.5em;
+}

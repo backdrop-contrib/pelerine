@@ -11,7 +11,9 @@ stylesheets[all][] = css/component/hero.css
 stylesheets[all][] = css/component/menu-dropdown.css
 stylesheets[all][] = css/component/pager.css
 stylesheets[all][] = css/component/tabs.css
+stylesheets[all][] = css/component/search.css
 stylesheets[all][] = css/component/vertical-tabs.css
+stylesheets[all][] = css/component/tabledrag.css
 stylesheets[all][] = css/style.css
 stylesheets[all][] = css/capes.css
 
