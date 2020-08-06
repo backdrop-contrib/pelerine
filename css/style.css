@@ -308,6 +308,11 @@ img.align-right {
   color: #000;
   background-color: #f7f7f7;
 }
+.l-header .block-search-form {
+  position: relative;
+  z-index: 1;
+  float: right;
+}
 .l-footer {
   padding: 2em 0;
   background: #484848;
