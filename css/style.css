@@ -156,11 +156,11 @@ h6 {
 }
 .block-system-header .block-content > * {
   display: inline-block;
-  vertical-align: top;
+  vertical-align: middle;
   margin: 0 .9375rem 10px;
 }
 .block-system-header .logo {
-  max-width: 320px;
+  max-width: 400px;
 }
 .name-and-slogan {
   color: #fff;
