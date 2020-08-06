@@ -20,5 +20,5 @@ stylesheets[all][] = css/capes.css
 ckeditor_stylesheets[] = css/editor.css
 ckeditor_stylesheets[] = css/component/caption.css
 
-settings[bodyclass] = 'green-grey-dots'
-settings[image_url] = 'themes/pelerine/backgrounds/green-grey-dots.png'
+settings[bodyclass] = 'green-stripes'
+settings[image_url] = 'themes/pelerine/backgrounds/green-stripes.jpg'
