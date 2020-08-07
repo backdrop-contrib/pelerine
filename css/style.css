@@ -151,11 +151,16 @@ h6 {
 .l-header .block-system-header {
   margin: 2em 0 1em;
 }
-
 .block-system-header .block-content {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
+  text-align: center;
+}
+.block-system-header .block-content > * {
+  display: inline-block;
+  vertical-align: middle;
+  margin: 0 .9375rem 10px;
+}
+.block-system-header .logo {
+  max-width: 400px;
 }
 .name-and-slogan {
   color: #fff;
@@ -308,6 +313,12 @@ img.align-right {
   color: #000;
   background-color: #f7f7f7;
 }
+.l-header .block-search-form {
+  position: relative;
+  z-index: 1;
+  float: right;
+  margin-right: .9375rem;
+}
 .l-footer {
   padding: 2em 0;
   background: #484848;
@@ -358,11 +369,25 @@ img.align-right {
   }
 }
 @media screen and (min-width: 1101px) {
+  .block-system-header .block-content {
+    text-align: left;
+  }
+  .header-menu {
+    float: right;
+    margin-right: 0;
+  }
   h1 {
     font-size: 2.1em;
   }
   h2 {
     font-size: 1.8em;
   }
-
+}
+@media screen and (min-width: 1201px) {
+  .block-system-header .block-content > * {
+    margin-left: 0;
+  }
+  .l-header .block-search-form {
+    margin-right: 0;
+  }
 }

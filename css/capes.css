@@ -198,3 +198,22 @@
 .warm-geometric a {
   color: #9e2b28;
 }
+/* floating-ink */
+.floating-ink {
+  background-color: #75a8bb;
+}
+.floating-ink .block-hero-no-image {
+  background-color: #5585a9;
+}
+.floating-ink .name-and-slogan .site-name,
+.floating-ink .name-and-slogan .site-slogan {
+  background-color: #5585a9;
+  color: #fff;
+}
+.floating-ink .name-and-slogan .site-name a,
+.floating-ink .header-menu a {
+  color: #fff;
+}
+.floating-ink a {
+  color: #375f7d;
+}
