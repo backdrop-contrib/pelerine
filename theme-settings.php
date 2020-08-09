@@ -56,15 +56,45 @@ function pelerine_form_system_theme_settings_alter(&$form, &$form_state) {
     '#markup' => file_get_contents($pelerine_path . '/preview.html'),
   );
   $form['#validate'][] = '_pelerine_css_class';
+  // Custom css in a textarea.
+  $form['use_custom_css'] = array(
+    '#type' => 'checkbox',
+    '#title' => 'Add custom css',
+    '#default_value' => theme_get_setting('use_custom_css', $theme_name),
+  );
+  $form['custom_css'] = array(
+    '#type' => 'textarea',
+    '#title' => t('Add your custom CSS rules'),
+    '#description' => t('Note that you can not preview these rules here.'),
+    '#default_value' => theme_get_setting('custom_css', $theme_name),
+    '#rows' => 12,
+    '#states' => array(
+      'invisible' => array(
+        ':input[name="use_custom_css"]' => array('checked' => FALSE),
+      ),
+    ),
+  );
 }
 
 /**
  * Custom validation function to set a form item value.
  */
 function _pelerine_css_class($form, &$form_state) {
+  // Create a css body class from image.
   if (!empty($form_state['values']['image_url'])) {
     $options = $form_state['storage']['options'];
     $key = $form_state['values']['image_url'];
     $form_state['values']['bodyclass'] = $options[$key];
+  }
+  // Additionally save css file to disk.
+  $theme_name = $form_state['values']['theme'];
+  $filepath = backdrop_realpath("public://{$theme_name}_custom.css");
+  if ($form_state['values']['use_custom_css']) {
+    $custom_css = strip_tags($form_state['values']['custom_css']);
+    file_unmanaged_save_data($custom_css, $filepath, FILE_EXISTS_REPLACE);
+  }
+  else {
+    $form_state['values']['custom_css'] = '';
+    file_unmanaged_delete($filepath);
   }
 }

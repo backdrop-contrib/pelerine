@@ -22,3 +22,4 @@ ckeditor_stylesheets[] = css/component/caption.css
 
 settings[bodyclass] = 'green-stripes'
 settings[image_url] = 'themes/pelerine/backgrounds/green-stripes.jpg'
+settings[use_custom_css] = FALSE
