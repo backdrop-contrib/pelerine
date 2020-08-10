@@ -24,10 +24,10 @@ function pelerine_preprocess_page(&$variables) {
   }
   // Attach custom css file if it exists.
   if (theme_get_setting('use_custom_css')) {
-    global $theme;
+    global $theme, $base_url;
     $rel_path = config_get('system.core', 'file_public_path') . '/' . $theme . '_custom.css';
     if (file_exists($rel_path)) {
-      backdrop_add_css($base_path . $rel_path, array(
+      backdrop_add_css($base_url . $base_path . $rel_path, array(
         'every_page' => TRUE,
         'preprocess' => FALSE,
         'group' => CSS_THEME,
