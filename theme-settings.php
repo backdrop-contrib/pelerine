@@ -59,7 +59,7 @@ function pelerine_form_system_theme_settings_alter(&$form, &$form_state) {
   // Custom css in a textarea.
   $form['use_custom_css'] = array(
     '#type' => 'checkbox',
-    '#title' => t('Add custom css'),
+    '#title' => t('Add custom CSS'),
     '#default_value' => theme_get_setting('use_custom_css', $theme_name),
   );
   $form['custom_css'] = array(
