@@ -94,8 +94,4 @@ function _pelerine_css_class($form, &$form_state) {
     file_unmanaged_save_data($custom_css, $filepath, FILE_EXISTS_REPLACE);
     $form_state['values']['custom_css'] = $custom_css;
   }
-  else {
-    $form_state['values']['custom_css'] = '';
-    file_unmanaged_delete($filepath);
-  }
 }
