@@ -5,7 +5,9 @@ Dress up your Backdrop website with a fancy cape.
 Set a strong color statement with one of the included background images or create a
 custom subtheme.
 
-Easy to configure (just a single setting does it all).
+Easy to configure, just a single setting does it all.
+
+Allows to add custom css via user interface.
 
 Easy to extend, a starterkit subtheme is included.
 
