@@ -383,6 +383,9 @@ img.align-right {
   background-color: #cadad8;
   padding: 15px;
 }
+.maintenance-page header img {
+  max-width: 200px;
+}
 .maintenance-page .name-and-slogan > * {
   display: block;
   margin: 2px 0;
