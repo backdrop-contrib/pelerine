@@ -14,6 +14,7 @@ stylesheets[all][] = css/component/tabs.css
 stylesheets[all][] = css/component/search.css
 stylesheets[all][] = css/component/vertical-tabs.css
 stylesheets[all][] = css/component/tabledrag.css
+stylesheets[all][] = css/component/cards.css
 stylesheets[all][] = css/style.css
 stylesheets[all][] = css/capes.css
 
