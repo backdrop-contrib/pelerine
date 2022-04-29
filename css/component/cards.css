@@ -3,14 +3,15 @@
   max-width: none;
 }
 .view-promoted-cards {
-  padding: 0;
-  margin: 2rem 0 1rem;
+  margin: 2rem 0;
 }
 .view-promoted-cards .views-view-grid {
-  gap: 1rem;
+  gap: 2rem;
 }
 .view-promoted-cards .views-grid-box {
   border: none;
+  padding: 0;
+  background-color: #fff;
   max-width: 540px;
 }
 .view-promoted-cards .views-field {
