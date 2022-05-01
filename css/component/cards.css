@@ -10,7 +10,7 @@
 }
 .view-promoted-cards .views-grid-box {
   border: none;
-  padding: 0;
+  padding: 0 0 1rem;
   background-color: #fff;
   max-width: 540px;
 }
