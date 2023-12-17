@@ -20,6 +20,8 @@ stylesheets[all][] = css/capes.css
 
 ckeditor_stylesheets[] = css/editor.css
 ckeditor_stylesheets[] = css/component/caption.css
+tinymce_content_css[] = css/editor.css
+tinymce_content_css[] = css/component/caption.css
 
 settings[bodyclass] = 'green-stripes'
 settings[image_url] = 'themes/pelerine/backgrounds/green-stripes.jpg'
